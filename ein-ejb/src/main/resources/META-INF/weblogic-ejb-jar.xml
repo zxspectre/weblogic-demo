@@ -1,0 +1,15 @@
+<weblogic-ejb-jar xmlns="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-ejb-jar  http://xmlns.oracle.com/weblogic/weblogic-ejb-jar/1.1/weblogic-ejb-jar.xsd">
+
+	<weblogic-enterprise-bean>
+		<ejb-name>CuckooMdb</ejb-name>
+		<message-driven-descriptor>
+			<pool>
+				<max-beans-in-free-pool>4</max-beans-in-free-pool>
+			</pool>
+		</message-driven-descriptor>
+
+	</weblogic-enterprise-bean>
+
+</weblogic-ejb-jar>
